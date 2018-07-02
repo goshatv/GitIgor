@@ -1,8 +1,9 @@
 public class HW1 {
     public static void main(String[] args) {
-        System.out.println(Factorial(5));
+        //System.out.println();
     }
 
+    //1.1 Если а - четное, посчитать...
     public static double abc(double a, double b, double c) {
         double res = 0;
         double sumAC = a + c;
@@ -24,7 +25,7 @@ public class HW1 {
         return res;
     }
 
-    //Сделал для двухмерноіх координат
+    //1.2 Точка с координатами
     public static String xy(int x, int y) {
         String res = "";
         if (x > 0 & y > 0) {
@@ -44,6 +45,7 @@ public class HW1 {
         return res;
     }
 
+    //2.1 Вычислить факториал числа
     public static int Factorial(int x) {
         int res = 1;
 
